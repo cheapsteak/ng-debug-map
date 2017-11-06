@@ -17,6 +17,7 @@ export class AppComponent {
 
   onClick () {
     this.map.set({'a':Math.random()}, {[Math.random()]: {'a':Math.random()}})
+    console.log(this.map);
   }
 }
 
